@@ -1,0 +1,29 @@
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: darkgrey;
+}
+
+
+
+#box1{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 15px solid rgb(116, 114, 114);
+    border-top: 15px solid white;
+    margin-top: 15%;
+    animation-name: ring;
+    animation-duration: 2.7s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes ring{
+
+    0%   {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+
+}    

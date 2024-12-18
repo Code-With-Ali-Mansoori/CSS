@@ -1,0 +1,35 @@
+.box1{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    transform: translate(20%,20%);
+}
+
+.box2{
+    height: 120px;
+    width: 120px;
+    background-color: bisque;
+    border: 1px solid black;
+    animation-name: moving;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moving {
+    0%{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(280px,0);
+    }
+    50%{
+        transform: translate(280px,280px);
+    }
+    75%{
+        transform: translate(0,280px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}

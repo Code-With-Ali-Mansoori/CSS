@@ -1,0 +1,234 @@
+.column-1{
+    border: 1px solid lightslategray;
+    height: 450px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#insta-logo{
+    background-image: url(instaagram.png);
+    background-size: cover;
+    height: 120px;
+    width: 100%;justify-content: center
+    ;align-items: center
+    ;
+
+}
+.insta-logo{
+    height: 150px;
+    width: 220px;
+    /* border: 1px solid black; */
+    position: absolute;
+     top: 0px;
+    margin-top: 10px;
+    display: flex;
+}
+
+/* data */
+
+.data{
+    height: 250px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid lightslategray; */
+    position: absolute;
+    top: 150px;
+
+
+    
+}
+
+#name{
+    height: 40px;
+    width: 280px;
+    border: 1px solid lightslategray;
+    border-radius: 4px;
+}
+ 
+
+
+
+#pass{
+    height: 40px;
+    width: 280px;
+    border: 1px solid lightslategray;
+    border-radius: 4px;
+    margin-top: 7px;
+    
+}
+
+.log-in{
+    height: 40px;
+    width: 280px;
+    border: 1px solid lightslategray;
+    border-radius: 9px;
+    color: white;
+    background-color: rgb(65, 157, 222);
+    font-weight: 700;
+    margin-top: 13px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+}
+.divide{
+    height: 15px;
+    width: 280px;
+    border: 1px solid lightslategray;
+    border-radius: 4px;
+}
+#spn{
+    font-weight: 300;
+    color: rgb(81, 82, 82);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-bottom: 3px;
+}
+
+#forgot{
+    height: 40px;
+    width: 280px;
+    border: 1px solid lightslategray;
+    border-radius: 4px;
+   
+    
+
+}
+
+#facebook-link{
+    color: rgb(49, 89, 209);
+    text-decoration: none;
+    text-align: center;
+    height: 12px;
+    width: 10px;
+    margin-top: 5px;
+
+}
+
+#face{
+    background-image: url(facebook.png);
+    background-size: cover;
+    height: 18px;
+    width: 18px;
+    margin-left: 50%;
+    margin-bottom: 4px;
+    
+}
+
+.logo-face{
+height: 20px;
+text-align: center;
+margin-top: 20px;
+
+}
+
+.option{
+height: 20px;
+
+}
+
+#option{
+    text-decoration: none;
+    color: rgb(62, 60, 60);
+    font-size: smaller;
+    align-items: center;
+}
+
+.fp{
+    height: 20px;
+    align-items: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* start of 2nd column */
+
+
+.column-2{
+height: 65px;
+width: 400px;
+border: 1px solid lightslategray;
+margin-top: 15px;
+
+
+}
+
+#sign-2{
+text-decoration: none;
+color: rgb(29, 133, 170);
+display: inline;
+margin-left: 3px;
+
+}
+
+#coloumn-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coloumn-3{
+    text-align: center;
+   
+}
+#coloumn-3{
+    height: 50px;
+    width: 400px;
+    /* border: 1px solid lightslategray; */
+
+}
+
+/*  */
+.play-micro{
+    height: 70px;
+    width: 400px;
+    /* border: 1px solid lightslategray; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.play{
+    height: 35px;
+    width: 120px;
+}
+
+#playstore{
+    height: 35px;
+    width: 100%;
+    background-image: url( playstore.png);
+    background-size: cover;
+}
+
+.micro{
+    height: 36px;
+    width: 120px;
+}
+
+#microsoft{
+    height: 100%;
+    width: 100%;
+    background-image: url( microsoft.png);
+    background-size: cover;
+}
+
+.instagram-login-page{
+border: 1px solid rgb(0, 0, 0);
+width: 400px;
+position: absolute;
+left: 35%;
+top: 5%;
+}
+
+/* THE END */
+
+
+
+
+
+
+
+
+
+
+

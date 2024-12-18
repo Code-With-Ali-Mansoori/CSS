@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "cli",
+			"path": "."
+		},
+		{
+			"name": "CSS",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "cli",
+		"liveServer.settings.port": 5503
+	}
+}

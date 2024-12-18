@@ -1,0 +1,618 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* navigation bar */
+
+.navbar{
+    background-color: rgb(34, 33, 32);
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+    border: 1.5px solid transparent
+}
+
+/* amazon logo  */
+
+.icon{
+    background-image: url(amazonoriginal.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* 2nd box delivery  */
+
+#first{
+    color: rgb(156, 165, 165);
+    font-size: 13px;
+    margin-left: 11px;
+
+}
+.second{
+    display: flex;
+
+}
+#second{
+    margin-left: 3px;
+}
+ /* box 3 search  */
+
+.search-bar{
+display: flex;
+width: 650px;
+height: 40px;
+
+}
+.search-first{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 50px;
+    text-align: center;
+
+}
+.search-third{
+    width: 50px;
+    /* height: 50px; */
+    display: flex;
+    justify-content: center;
+
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+    background-color: rgb(255, 140, 0);
+    border: none;
+    font-size: 1.2rem;
+    color: rgb(32, 31, 31);
+    align-items: center;
+}
+.search-second{
+    width: 100%;
+    font-size: 1rem;
+}
+/*  box 4 accounts */
+
+.sign-returns{
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+.accounts-orders{
+    /* font-size: large; */
+    /* font-weight: 700; */
+    /* background-color: rgb(32, 31, 31) ; */
+    border: none;
+    color: aliceblue;
+}
+/*  box 5  */
+
+#orders{
+    font-weight: 600;
+}
+ /* cart */
+
+.icon-car{
+    font-weight: 800;
+    font-size: xx-large;
+}
+.cart-icon{
+    display: flex;
+}
+#carts{
+    align-items: bottom;
+    font-size: x-small;
+    font-weight: 800;
+
+}
+/*  navigation bar */
+
+/*  MENU BAR */
+
+.menu-bar{
+    height: 40px;
+    background-color: rgb(56, 54, 54);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+    
+}
+.menu-all{
+    display: flex;
+    align-items: center;
+    
+
+}
+#all{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 4px;
+
+}
+
+/* menu 2  */
+
+#fashion{
+display: flex;
+align-items: center;
+font-weight: 400;
+/* font-size: small; */
+}
+
+/*  menu 3 */
+
+#gadgets{
+    align-items: center;
+    font: 10px;
+    /* margin-top: 6px; */
+}
+/* /*  *menu 4/ */
+
+#grocery{
+    align-items: center;
+    font: 10px;
+    /* margin-top: 6px; */
+}
+    /* menu 5 */
+
+    #customer{
+        align-items: center;
+        font: 10px;
+        /* margin-top: 6px; */
+    }
+
+     
+        /* menu6 prime */
+
+       #membership{
+        align-items: center;
+        font: 10px;
+        /* margin-top: 6px; */
+       }
+
+       /* menu 7 */
+
+#pay{
+    align-items: center;
+        /* margin-top: 6px; */
+}
+
+/*  simialr font for all menu  */
+
+ .font{
+    font: 10px;
+ }
+/* end of menu bar */
+
+/* AMAZON IMAGE */
+
+#am-img{
+    background-image: url(amazon\ bg.pmg.jpg);
+    background-size: cover;
+    height: 300px;
+}
+
+/* footer */
+footer{
+    position: relative;
+    bottom: 0px;
+}
+/*  last footer scetion  */
+
+.last-footer{
+    height: 80px;
+    background-color: rgb(34, 33, 32);
+    position: relative;
+    bottom: 0px;
+    padding-top: 15px;
+   
+
+
+}
+
+#acr-foot a{
+color: azure;
+font-size: small;
+/* margin: 4px; */
+text-decoration:underline;
+/* text-align: center; */
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+#copyright{
+    font-size: small; 
+      color: white;
+      text-align: center;
+}
+
+/* second last  footer */
+
+.footer-second {
+height: 50px;
+background-color: rgb(34, 33, 32);
+text-align: center;
+padding-top: 15px;
+}
+
+#b-t{
+    font-size: small;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.856);
+    padding-top: 10px;
+
+}
+/*  footer pannel */
+.footer-pannel{
+    height: 260px;
+    background-color:  rgb(58, 55, 55);
+   display: flex; 
+   justify-content: space-evenly;
+   align-items: center;
+   color: white;
+
+
+
+
+}
+ul a{
+    display: block;
+    font-size: small
+}
+
+/* footer no. 3 */
+.footer-pannel3{
+    height: 70px;
+    background-color:rgb(34, 33, 32);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.logo1{
+    height: 45px;
+    width: 100px;
+    padding-top: 10px;
+
+}
+#amazon-img{
+    background-image: url("amazonoriginal.jpg");
+    background-size: cover;
+    height: 45px;
+    width: 100%;
+
+}
+.language{
+    height: 40px;
+    width: 150px;
+    border: 1px solid white;
+    padding-top: 1px;
+    border-radius: 4px;
+
+}
+#eng{
+    color: white;
+    size: 20px;
+    padding-left: 2px;
+}
+#lang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+#lang i{
+    color: white;
+    margin-right : 1px;
+    
+}
+
+.country{
+    height: 40px;
+    width: 150px;
+    border: 1px solid white;
+    padding-top: 3px;
+    border-radius: 4px;
+}
+#country{
+    display: flex;
+    padding-top: 2px;
+    justify-content: center;
+    align-items: center;
+
+}
+#country p{
+    color: white;
+    size: 16px;
+    padding-left: 3px;
+}
+#country i{
+    color: white;
+
+}
+
+
+/* sign in in footer step */
+
+.sign{
+ height: 100px;
+text-align: center;
+margin-top: 5px;
+padding-top: 5px;
+}
+
+#sign-in button{
+    height: 30px;
+    width: 250px;
+    background-color: rgb(255, 183, 0);
+    border-radius: 5px;
+    border: 2px solid black;
+    color: black;
+    font-weight: 400;
+    font-size: medium;
+    
+}
+
+/* /* main * */
+
+
+main{
+    height: 850px;
+    background-color: rgba(220, 239, 243, 0.886);
+}
+
+
+
+
+
+
+/* strat of main */
+.items{ 
+
+    display: flex;
+    justify-content: space-evenly;
+
+
+    
+}
+.box1{
+    height: 450px;
+    width: 310px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: rgb(255, 255, 255);
+border-radius: 5px;
+}
+
+
+
+#WASH{
+    height: 150PX;
+    width: 80%;
+    /* border: 2PX SOLID black; */
+    background-image: url(washing\ machine.jpg);
+    background-size: cover;
+    margin-top: 4px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+
+
+}
+
+#OVAN{
+    height: 150PX;
+    width: 80%;
+    /* border: 2PX SOLID black; */
+    background-image: url(wave.jpg);
+    background-size: cover;
+  margin-top: 4px;
+  margin-left: 25px;
+  margin-bottom: 15px;
+
+
+}
+
+
+
+.FONT-P{
+    font-weight: 700;
+    font-size: medium;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+
+
+
+ .BOX2 {
+        height: 450px;
+        width: 310px;
+        border: 2px solid black;
+        margin-top: 15px;
+        margin-left: 15px;
+  
+        
+    
+        
+    }
+    
+    #AIR {
+        height: 150PX;
+        width: 80%;
+        border: 2PX SOLID black;
+        background-size: cover;
+        background-image: url(air.jpg);
+        margin-top: 4px;
+        margin-left: 25px;
+        margin-bottom: 15px;
+    
+    }
+    #FRIDGE {
+        height: 150PX;
+        width: 80%;
+        border: 2PX SOLID black;
+        background-image: url(fridge.jpg);
+        background-size: cover;
+        margin-top: 4px;
+        margin-left: 25px;
+        margin-bottom: 15px;
+    
+    }
+
+/* MORE ITEMS OF MOUSE */
+
+.ITEMS-PRODUCT{
+height: 290PX;
+background-color: white;
+border: 2PX SOLID rgb(255, 255, 255) ;
+border-radius: 10px;
+margin-top: 35px;
+width: 1390px;
+margin-left: 45px;
+
+
+
+}
+
+#LAST-TM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.mouce-shop
+{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-top: 22px;
+}
+
+
+#mouce-1 {
+
+    /* border: 2px solid black; */
+    height:170px;
+    width: 260px; 
+    background-image: url(mouce.jpg);  
+    background-size: cover; 
+
+
+}
+
+#mouce-2 {
+
+    /* border: 2px solid black; */
+    height:220px;
+    width: 150px; 
+    background-image: url(mouce2.jpg);  
+    background-size: cover; 
+    
+
+}
+
+#mouce-3 {
+
+    /* border: 2px solid black; */
+    height:225px;
+    width: 130px; 
+    background-image: url(mouce4.jpg);  
+    background-size: cover; 
+    
+
+}
+
+#mouce-4 {
+
+    /* border: 2px solid black; */
+    height:215px;
+    width: 140px; 
+    background-image: url(mouce5.jpg);  
+    background-size: cover; 
+    
+
+}
+
+#mouce-5 {
+
+    /* border: 2px solid black; */
+    height:200px;
+    width: 160px; 
+    background-image: url(uuu.jpg);  
+    background-size: cover; 
+    
+
+}
+#mouce-6 {
+
+    /* border: 2px solid black; */
+    height:180px;
+    width: 180px; 
+    background-image: url(ttt.jpg);  
+    background-size: cover; 
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
